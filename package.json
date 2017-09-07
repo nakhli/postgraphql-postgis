@@ -1,0 +1,19 @@
+{
+  "name": "postgraphql-postgis",
+  "version": "0.1.0",
+  "description": "PostGIS Extension for PostGraphQL Edit",
+  "main": "lib/index.js",
+  "repository": "https://github.com/amaurymartiny/postgraphql-postgis",
+  "author": "Amaury Martiny <amaury.martiny@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf lib/",
+    "prebuild": "npm run clean"
+  },
+  "dependencies": {
+    "graphql-geojson": "^1.0.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.1"
+  }
+}
