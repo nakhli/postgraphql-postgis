@@ -10,7 +10,8 @@
     "clean": "rimraf lib/",
     "prebuild": "npm run clean",
     "build": "babel -d lib/ src/",
-    "watch": "babel --watch -d lib/ src/"
+    "watch": "babel --watch -d lib/ src/",
+    "start": "npm run build"
   },
   "dependencies": {
     "graphql": "^0.11.3",
